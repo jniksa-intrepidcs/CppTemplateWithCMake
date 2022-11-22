@@ -2,17 +2,11 @@
 
 int main()
 {
-    int file_size; //Snake Case
-    int FileSize; //Pascal Case
-    int fileSize; //Camel Case
-    int iFileSize; //Hungarian Notation (not relevant anymore since we can preview variable types)
+    std::cout << "Hello World";
+    
+    std::cout << "Size of uint32 : " << sizeof(uint32_t) << std::endl;
+    std::cout << "Size of unsigned long : " << sizeof(unsigned long) << std::endl;
 
-    std::cout << "Hello, World!" << std::endl; 
+
     return 0;
 }
-
-/*
- * Comment Block
- * 
- * 
-*/

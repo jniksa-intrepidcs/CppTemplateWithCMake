@@ -7,7 +7,7 @@ project(HelloWorld)
 set(CMAKE_CXX_STANDARD 17)
 
 #name the compiled object and choose the file to compile
-add_executable(HelloWorld main.cpp)
+add_executable(HelloWorld sizeTtoIntCheck.cpp)
 
 ########################EXAMPLES#########################################
 
